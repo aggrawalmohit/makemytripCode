@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Selenium Coding challenge Part 2- Naveen Automation Labs">
+
+<listeners>
+	<listener class-name="com.makemytrip.report.ExtentReport"></listener>
+	</listeners>
+	
+	<test name="search for Flights" preserve-order="true">
+	
+		<classes>
+			<class name="com.makemytrip.tests.HomePageTest"></class>
+			</classes>
+			
+			</test>
+</suite>

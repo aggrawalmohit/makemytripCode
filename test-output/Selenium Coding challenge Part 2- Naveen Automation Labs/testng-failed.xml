@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Selenium Coding challenge Part 2- Naveen Automation Labs]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.makemytrip.report.ExtentReport"/>
+  </listeners>
+  <test thread-count="5" name="search for Flights(failed)">
+    <classes>
+      <class name="com.makemytrip.tests.HomePageTest">
+        <methods>
+          <include name="nonStopFlightTest"/>
+          <include name="chkTotalNoOfFlights"/>
+          <include name="oneStopFlightTest"/>
+          <include name="homepagetest"/>
+          <include name="flightPriceTest"/>
+          <include name="setup"/>
+          <include name="randomFlightTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.makemytrip.tests.HomePageTest -->
+    </classes>
+  </test> <!-- search for Flights(failed) -->
+</suite> <!-- Failed suite [Selenium Coding challenge Part 2- Naveen Automation Labs] -->

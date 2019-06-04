@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-05-21T16:14:52Z" name="Selenium Coding challenge Part 2- Naveen Automation Labs" finished-at="2019-05-21T16:15:15Z" duration-ms="22788">
+    <groups>
+    </groups>
+    <test started-at="2019-05-21T16:14:52Z" name="search for Flights" finished-at="2019-05-21T16:15:15Z" duration-ms="22788">
+      <class name="com.makemytrip.tests.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.makemytrip.tests.HomePageTest@5aebe890]" started-at="2019-05-21T16:14:52Z" name="setup" finished-at="2019-05-21T16:14:58Z" duration-ms="5704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="homepagetest()[pri:1, instance:com.makemytrip.tests.HomePageTest@5aebe890]" started-at="2019-05-21T16:14:58Z" name="homepagetest" finished-at="2019-05-21T16:15:04Z" duration-ms="6834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepagetest -->
+        <test-method signature="chkTotalNoOfFlights()[pri:2, instance:com.makemytrip.tests.HomePageTest@5aebe890]" started-at="2019-05-21T16:15:04Z" name="chkTotalNoOfFlights" finished-at="2019-05-21T16:15:09Z" duration-ms="5001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chkTotalNoOfFlights -->
+        <test-method signature="nonStopFlightTest()[pri:3, instance:com.makemytrip.tests.HomePageTest@5aebe890]" started-at="2019-05-21T16:15:09Z" name="nonStopFlightTest" finished-at="2019-05-21T16:15:11Z" duration-ms="1334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nonStopFlightTest -->
+        <test-method signature="oneStopFlightTest()[pri:4, instance:com.makemytrip.tests.HomePageTest@5aebe890]" started-at="2019-05-21T16:15:11Z" name="oneStopFlightTest" finished-at="2019-05-21T16:15:14Z" duration-ms="2953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneStopFlightTest -->
+        <test-method signature="randomFlightTest()[pri:5, instance:com.makemytrip.tests.HomePageTest@5aebe890]" started-at="2019-05-21T16:15:14Z" name="randomFlightTest" finished-at="2019-05-21T16:15:14Z" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- randomFlightTest -->
+        <test-method signature="flightPriceTest()[pri:6, instance:com.makemytrip.tests.HomePageTest@5aebe890]" started-at="2019-05-21T16:15:14Z" name="flightPriceTest" finished-at="2019-05-21T16:15:14Z" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightPriceTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.makemytrip.tests.HomePageTest@5aebe890]" started-at="2019-05-21T16:15:14Z" name="tearDown" finished-at="2019-05-21T16:15:15Z" duration-ms="583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.makemytrip.tests.HomePageTest -->
+    </test> <!-- search for Flights -->
+  </suite> <!-- Selenium Coding challenge Part 2- Naveen Automation Labs -->
+</testng-results>
